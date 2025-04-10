@@ -1,4 +1,6 @@
 /* stylelint-disable selector-class-pattern */
+@import 'product-list-grid.css';
+
 .product-list-page {
     min-height: 700px;
 }
