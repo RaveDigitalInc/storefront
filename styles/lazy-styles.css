@@ -1,1 +1,26 @@
 /* add global styles that can be loaded post LCP here */
+
+:root, .dropin-design {
+  --type-display-2-font: normal normal 300 3.6rem/4.6rem var(--type-base-font-family);
+  --type-display-2-letter-spacing: 0.04em;
+  --type-display-3-font: normal normal 300 2.4rem/3rem var(--type-base-font-family);
+  --type-display-3-letter-spacing: 0.04em;
+}
+
+.cards > ul {
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+}
+
+.cards .cards-card-body h3 {
+  text-align: center;
+}
+
+.cards .cards-card-image {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.cards > ul > li img {
+  width: auto;
+  aspect-ratio: auto;
+}
