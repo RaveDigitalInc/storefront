@@ -29,12 +29,18 @@ header nav .nav-tools button.nav-cart-button[data-count]::after {
     background-color: #ef6122;
 }
 
-.cart-order-summary__primaryAction a.dropin-button--primary,
-.checkout-place-order button.checkout-place-order__button {
+.cart-order-summary a.dropin-button {
     background: #ef6122;
 }
 
-.cart-order-summary__primaryAction a.dropin-button--primary:hover,
-.checkout-place-order button.checkout-place-order__button:hover {
+.cart-order-summary a.dropin-button:hover{
+    background: #454545;
+}
+
+.checkout-place-order button {
+    background: #ef6122;
+}
+
+.checkout-place-order button:hover {
     background: #454545;
 }
