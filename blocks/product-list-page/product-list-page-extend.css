@@ -125,16 +125,12 @@ main > .section .product-teaser-wrapper {
     font-size: 20px;
 }
 
+.ds-sdk-product-item .pb-4.mt-sm {
+    min-height: 42px;
+}
+
 @media (width >= 1024px) {
     .product-list-page .ds-widgets .ds-widgets-_actions {
         padding-right: 20px;
-    }
-
-    .product-list-page .ds-sdk-product-item .ds-sdk-add-to-cart-button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
     }
 }
