@@ -24,3 +24,17 @@
   width: auto;
   aspect-ratio: auto;
 }
+
+header nav .nav-tools button.nav-cart-button[data-count]::after {
+    background-color: #ef6122;
+}
+
+.cart-order-summary__primaryAction a.dropin-button--primary,
+.checkout-place-order button.checkout-place-order__button {
+    background: #ef6122;
+}
+
+.cart-order-summary__primaryAction a.dropin-button--primary:hover,
+.checkout-place-order button.checkout-place-order__button:hover {
+    background: #454545;
+}

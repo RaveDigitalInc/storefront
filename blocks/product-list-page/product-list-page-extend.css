@@ -1,0 +1,139 @@
+/* stylelint-disable selector-class-pattern */
+
+.product-list-page .ds-sdk-product-price .text-brand-300 {    
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.product-list-page .ds-sdk-product-price .text-brand-600 {
+    color: #ef6122;
+    letter-spacing: normal;
+}
+
+.product-list-page .ds-sdk-product-item__product-name {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+}
+
+main > .section .product-teaser-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.product-list-page-container .product-recommendations {
+    min-height: auto;
+}
+
+.product-list-page .ds-sdk-product-item {
+    border: 1px solid #f5f5f5;
+}
+
+.product-list-page .ds-widgets .ds-sdk-product-item a:hover {
+    text-decoration: none;
+}
+
+.ds-widgets .ds-sdk-product-list__grid.gap-x-2xl {
+    column-gap: 2rem;
+}
+
+.ds-widgets .ds-widgets_results .ds-sdk-per-page-picker {
+    border: 1px solid #ddd;
+}
+
+.ds-widgets .ds-sdk-per-page-picker button {
+    border-radius: 40px;
+}
+
+.product-list-page .ds-widgets .ds-widgets-_actions {
+    top: 0px;
+}
+
+.ds-widgets ul.ds-plp-pagination li {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    margin: 4px;
+    line-height: 1;
+}
+
+.ds-widgets ul.ds-plp-pagination li.ds-plp-pagination__item--current {
+    border-color: #000;
+    text-decoration: none;
+}
+
+.product-teaser-wrapper .product-teaser.block {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 2rem 0;
+    margin: 4rem 0;
+}
+
+.ds-widgets .ds-sdk-sort-dropdown button {
+    border-radius: unset;
+    border: 1px solid #ccc;
+    height: 32px;
+}
+
+.product-list-page .ds-sdk-sort-dropdown > button span {
+    font-size: 14px;
+}
+
+.ds-widgets .ds-widgets_results {
+    padding-top: 1rem;
+}
+
+.ds-widgets_results .ds-sdk-pill {
+    border: 1px solid #ddd;
+}
+
+.ds-widgets_results .ds-sdk-pill .ds-sdk-pill__cta svg {
+    margin-left: 5px;
+    margin-top: -4px;
+}
+
+.ds-widgets_results button.ds-plp-facets__header__clear-all span {
+    font-size: 14px;
+}
+
+.product-list-page .ds-sdk-filter-button-desktop button {
+    outline: 1px solid #ddd;
+}
+
+.product-list-page .ds-sdk-filter-button-desktop button span {
+    font-size: 14px;
+    letter-spacing: 0.04rem;
+}
+
+.product-list-page .ds-sdk-product-item .ds-sdk-add-to-cart-button button:hover {
+    background: #ef6122;
+    color: #fff;
+}
+
+.ds-widgets .ds-plp-facets .ds-sdk-input:last-child .ds-sdk-input__border {
+    display: none;
+}
+
+.ds-widgets .ds-plp-facets form.ds-plp-facets__list {
+    border-color: #ddd;
+}
+
+.ds-widgets .ds-plp-facets .ds-sdk-input .ds-sdk-input__border {
+    border-color: #ddd;
+}
+
+.ds-widgets .ds-sdk-input label.ds-sdk-input__label {
+    font-size: 20px;
+}
+
+@media (width >= 1024px) {
+    .product-list-page .ds-widgets .ds-widgets-_actions {
+        padding-right: 20px;
+    }
+    .product-list-page .ds-sdk-product-item .ds-sdk-add-to-cart-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+}

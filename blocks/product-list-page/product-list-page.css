@@ -1,6 +1,6 @@
 /* stylelint-disable selector-class-pattern */
 
-@import url('product-list-grid.css');
+@import url('product-list-page-extend.css');
 
 .product-list-page {
     min-height: 700px;

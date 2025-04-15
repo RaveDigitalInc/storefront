@@ -1,0 +1,8 @@
+/* stylelint-disable no-empty-source */
+/* stylelint-disable selector-class-pattern */
+
+@media (width >= 900px) {
+  .pdp-swatches .dropin-picker {
+    min-width: 235px;
+  }
+}
