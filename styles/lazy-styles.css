@@ -24,3 +24,23 @@
   width: auto;
   aspect-ratio: auto;
 }
+
+header nav .nav-tools button.nav-cart-button[data-count]::after {
+    background-color: #ef6122;
+}
+
+.cart-order-summary a.dropin-button {
+    background: #ef6122;
+}
+
+.cart-order-summary a.dropin-button:hover{
+    background: #454545;
+}
+
+.checkout-place-order button {
+    background: #ef6122;
+}
+
+.checkout-place-order button:hover {
+    background: #454545;
+}

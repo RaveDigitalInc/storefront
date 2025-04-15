@@ -1,6 +1,8 @@
 /* stylelint-disable no-empty-source */
 /* stylelint-disable selector-class-pattern */
 
+@import url('swatches.css');
+
 .product-details__wrapper {
   display: grid;
   grid-template-columns: repeat(var(--grid-1-columns), 1fr);
