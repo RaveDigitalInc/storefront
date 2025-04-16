@@ -78,7 +78,7 @@ main > .section .product-teaser-wrapper {
     font-size: 14px;
 }
 
-.ds-widgets .ds-widgets_results {
+.product-list-page .ds-widgets .ds-widgets_results {
     padding-top: 1rem;
 }
 
@@ -127,6 +127,10 @@ main > .section .product-teaser-wrapper {
 
 .ds-sdk-product-item .pb-4.mt-sm {
     min-height: 42px;
+}
+
+.product-list-page .ds-widgets > .flex {
+    align-items: flex-start;
 }
 
 @media (width >= 1024px) {
